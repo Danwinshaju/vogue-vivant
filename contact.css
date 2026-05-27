@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#F8F5F0;
+    color:#1E1E1E;
+    font-family:'DM Sans', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:white;
+    padding:18px 0;
+    border-bottom:1px solid #E5DED5;
+}
+
+.navbar-brand{
+    font-family:'Cormorant Garamond', serif;
+    font-size:2rem;
+    color:#111;
+    text-decoration:none;
+}
+
+.navbar-brand span{
+    font-style:italic;
+    font-weight:300;
+}
+
+.nav-link{
+    color:#555;
+    margin:0 12px;
+    transition:0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    color:black;
+}
+
+/* HERO */
+
+.contact-hero{
+    padding:120px 0;
+    background:#EFE7DD;
+}
+
+.hero-label{
+    letter-spacing:3px;
+    font-size:0.8rem;
+    color:#8A8178;
+    margin-bottom:20px;
+}
+
+.hero-title{
+    font-family:'Cormorant Garamond', serif;
+    font-size:5rem;
+    line-height:1;
+    margin-bottom:25px;
+}
+
+.hero-title em{
+    font-style:italic;
+}
+
+.hero-desc{
+    max-width:700px;
+    margin:auto;
+    color:#6A6560;
+    line-height:1.8;
+}
+
+/* CONTACT */
+
+.contact-section{
+    padding:100px 0;
+}
+
+.contact-box{
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.section-title{
+    font-family:'Cormorant Garamond', serif;
+    font-size:2.5rem;
+    margin-bottom:40px;
+}
+
+.form-control{
+    border:none;
+    border-bottom:1px solid #D8D0C7;
+    border-radius:0;
+    background:transparent;
+    padding:15px 0;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:black;
+    background:transparent;
+}
+
+.btn-send{
+    background:black;
+    color:white;
+    border:none;
+    padding:15px 40px;
+    letter-spacing:1px;
+    transition:0.3s;
+}
+
+.btn-send:hover{
+    background:#444;
+}
+
+/* INFO */
+
+.info-box{
+    margin-bottom:40px;
+}
+
+.info-box h3{
+    font-family:'Cormorant Garamond', serif;
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+.info-box p{
+    color:#6A6560;
+    line-height:1.9;
+}
+
+/* MAP */
+
+.map-section iframe{
+    display:block;
+}
+
+/* FOOTER */
+
+/* FOOTER */
+
+footer{
+    background:#111111;
+    padding:5rem 0 2rem;
+    position:relative;
+}
+
+/* BRAND */
+
+.footer-brand{
+    font-family:'Cormorant Garamond', serif;
+    font-size:2rem;
+    font-weight:600;
+    letter-spacing:0.15em;
+    color:#FAF7F2;
+    text-transform:uppercase;
+    margin-bottom:1rem;
+}
+
+.footer-brand span{
+    color:#C6A27E;
+    font-style:italic;
+}
+
+/* ABOUT */
+
+.footer-about{
+    font-size:0.9rem;
+    color:#9C948B;
+    line-height:1.9;
+    max-width:320px;
+}
+
+/* HEADING */
+
+.footer-heading{
+    font-size:0.72rem;
+    letter-spacing:0.25em;
+    text-transform:uppercase;
+    color:#C6A27E;
+    margin-bottom:1.5rem;
+    font-weight:500;
+}
+
+/* LINKS */
+
+.footer-links{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-links li{
+    margin-bottom:0.85rem;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:#8B847C;
+    font-size:0.88rem;
+    transition:0.3s ease;
+}
+
+.footer-links a:hover{
+    color:#FAF7F2;
+    padding-left:5px;
+}
+
+/* SOCIAL */
+
+.social-links{
+    display:flex;
+    gap:1rem;
+    margin-top:1.8rem;
+}
+
+.social-link{
+    width:42px;
+    height:42px;
+    border:1px solid #2E2A25;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#8B847C;
+    text-decoration:none;
+    font-size:0.9rem;
+    transition:0.3s ease;
+    border-radius:50%;
+}
+
+.social-link:hover{
+    border-color:#C6A27E;
+    color:#C6A27E;
+    transform:translateY(-3px);
+}
+
+/* FOLLOW TEXT */
+
+.follow-text{
+    color:#8B847C;
+    font-size:0.9rem;
+    line-height:1.9;
+    max-width:340px;
+}
+
+/* BOTTOM */
+
+.footer-bottom{
+    border-top:1px solid #2A2622;
+    margin-top:4rem;
+    padding-top:1.5rem;
+    font-size:0.78rem;
+    color:#66605A;
+}
+
+/* BOTTOM LINKS */
+
+.footer-bottom a{
+    color:#66605A;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.footer-bottom a:hover{
+    color:#C6A27E;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    footer{
+        text-align:center;
+    }
+
+    .footer-about,
+    .follow-text{
+        max-width:100%;
+        margin:auto;
+    }
+
+    .social-links{
+        justify-content:center;
+    }
+
+    .footer-bottom{
+        flex-direction:column;
+        text-align:center;
+    }
+}

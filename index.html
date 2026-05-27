@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VOGUE VIVANT — Fashion Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">VOGUE <span>VIVANT</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./style.html">Style</a></li>
+          <li class="nav-item"><a class="nav-link" href="./beauty.html">Beauty</a></li>
+          <li class="nav-item"><a class="nav-link" href="./trends.html">Trends</a></li>
+          <li class="nav-item"><a class="nav-link" href="./designers.html">Designers</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        </ul>
+        <form class="search-form d-flex">
+        <input 
+        class="search-input"
+        type="search"
+        placeholder="Search articles...">
+        <button class="search-btn" type="submit">🔎︎</button>
+        </form>
+        <div class="d-flex align-items-center gap-3">
+          
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <p class="hero-label">✦ Spring / Summer 2026 Edition</p>
+          <h1 class="hero-title">
+            The Art of<br>
+            <em>Effortless</em><br>
+            Elegance
+          </h1>
+          <p class="hero-desc">
+            Discover the finest in contemporary fashion — curated looks, styling secrets, and the stories behind the silhouettes that define our era.
+          </p>
+          <div>
+            <a href="./designers.html" class="btn-hero">Explore Collection</a>
+            <a href="./style.html" class="btn-outline-hero">Watch Lookbook</a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-flex hero-image-col">
+          <div class="hero-img-frame">
+
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="./assets/videos/index/1.mp4" type="video/mp4">
+    </video>
+
+    <div class="video-overlay"></div>
+
+    <span class="hero-img-label">
+        Editor's Pick
+    </span>
+
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRENDING STRIP -->
+  <div class="trending-strip">
+    <div class="trending-inner">
+      <div class="trending-item"><span>Trending:</span> Quiet Luxury</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>New In:</span> Linen Co-ords</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>Editorial:</span> Paris Runway Recap</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>Beauty:</span> Glass Skin Guide</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>Style:</span> Summer Capsule Wardrobe</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>Trending:</span> Quiet Luxury</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>New In:</span> Linen Co-ords</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>Editorial:</span> Paris Runway Recap</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>Beauty:</span> Glass Skin Guide</div>
+      <div class="trending-item">✦</div>
+      <div class="trending-item"><span>Style:</span> Summer Capsule Wardrobe</div>
+      <div class="trending-item">✦</div>
+    </div>
+  </div>
+
+  <!-- FEATURED POSTS -->
+  <section class="featured-section">
+  <div class="container">
+
+    <!-- TITLE -->
+    <div class="featured-header">
+
+      <div>
+        <p class="section-label">✦ Featured Collection</p>
+
+        <h2 class="section-title">
+          Discover Our <em>Luxury</em> Picks
+        </h2>
+      </div>
+
+      <a href="./trends.html" class="view-btn">
+        View All
+      </a>
+
+    </div>
+
+    <!-- PRODUCTS -->
+
+    <div class="row g-4">
+
+      <!-- PRODUCT 1 -->
+
+      <div class="col-md-6 col-lg-4">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="./assets/images/index/2.avif" alt="">
+
+            <div class="product-overlay">
+
+              <button class="cart-btn">
+                Add To Cart
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="product-content">
+
+            <span class="product-category">
+              Runway
+            </span>
+
+            <h3 class="product-title">
+              Milan Fashion Week Blazer
+            </h3>
+
+            <div class="product-bottom">
+
+              <span class="product-price">
+                ₹12,000
+              </span>
+
+              <span class="product-rating">
+                ★ 4.9
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCT 2 -->
+
+      <div class="col-md-6 col-lg-4">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="./assets/images/index/3.avif" alt="">
+
+            <div class="product-overlay">
+
+              <button class="cart-btn">
+                Add To Cart
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="product-content">
+
+            <span class="product-category">
+              Luxury
+            </span>
+
+            <h3 class="product-title">
+              Quiet Luxury Collection
+            </h3>
+
+            <div class="product-bottom">
+
+              <span class="product-price">
+                ₹8,500
+              </span>
+
+              <span class="product-rating">
+                ★ 5.0
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCT 3 -->
+
+      <div class="col-md-6 col-lg-4">
+
+        <div class="product-card">
+
+          <div class="product-image">
+
+            <img src="./assets/images/index/4.avif" alt="">
+
+            <div class="product-overlay">
+
+              <button class="cart-btn">
+                Add To Cart
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="product-content">
+
+            <span class="product-category">
+              Beauty
+            </span>
+
+            <h3 class="product-title">
+              Glass Skin Essentials
+            </h3>
+
+            <div class="product-bottom">
+
+              <span class="product-price">
+                ₹8,000
+              </span>
+
+              <span class="product-rating">
+                ★ 4.8
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  
+  <section class="editorial-section">
+
+    <div class="container">
+
+        <!-- HEADER -->
+
+        <div class="editorial-header">
+
+            <p class="section-label">
+                ✦ Fashion Journal
+            </p>
+
+            <h2 class="editorial-title">
+                Trending <em>Editorials</em>
+            </h2>
+
+        </div>
+
+        <!-- GRID -->
+
+        <div class="row g-4">
+
+            <!-- LARGE CARD -->
+
+            <div class="col-lg-7">
+
+                <div class="editorial-main-card">
+
+                    <img src="./assets/images/index/9.avif" alt="">
+
+                    <div class="editorial-overlay">
+
+                        <span class="editorial-tag">
+                            Featured Story
+                        </span>
+
+                        <h2>
+                            The Future of Luxury Fashion Is Minimal, Bold & Timeless
+                        </h2>
+
+                        <p>
+                            Explore the new era of fashion aesthetics where elegance meets modern simplicity.
+                        </p>
+
+                        <a href="#" class="editorial-btn">
+                            Read Article
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- SIDE CARDS -->
+
+            <div class="col-lg-5">
+
+                <div class="small-editorial-card">
+
+                    <img src="./assets/images/index/10.avif" alt="">
+
+                    <div class="small-content">
+
+                        <span>Beauty</span>
+
+                        <h4>
+                            Summer Skincare Essentials You Need Right Now
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="small-editorial-card">
+
+                    <img src="./assets/images/index/11.avif" alt="">
+
+                    <div class="small-content">
+
+                        <span>Accessories</span>
+
+                        <h4>
+                            Jewellery Trends Dominating Fashion Week 2026
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="small-editorial-card">
+
+                    <img src="./assets/images/index/4.avif" alt="">
+
+                    <div class="small-content">
+
+                        <span>Designers</span>
+
+                        <h4>
+                            Rising Asian Designers Changing Global Fashion
+                        </h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- CATEGORIES -->
+  <section class="categories-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-label">✦ Browse by Category</p>
+        <h2 class="section-title">Find Your <em>Style</em></h2>
+      </div>
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card">
+            <span class="cat-icon">👗</span>
+            <div class="cat-name">Style</div>
+            <div class="cat-count">84 posts</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card">
+            <span class="cat-icon">💄</span>
+            <div class="cat-name">Beauty</div>
+            <div class="cat-count">56 posts</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card">
+            <span class="cat-icon">✈️</span>
+            <div class="cat-name">Travel</div>
+            <div class="cat-count">32 posts</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card">
+            <span class="cat-icon">👜</span>
+            <div class="cat-name">Accessories</div>
+            <div class="cat-count">47 posts</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card">
+            <span class="cat-icon">🏃‍♀️</span>
+            <div class="cat-name">Lifestyle</div>
+            <div class="cat-count">38 posts</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="cat-card">
+            <span class="cat-icon">✂️</span>
+            <div class="cat-name">Designers</div>
+            <div class="cat-count">29 posts</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- QUOTE BAND -->
+
+<section class="quote-band">
+
+  <div class="container text-center">
+
+    <blockquote class="quote-text">
+      “Fashion is the armor to survive the reality of everyday life.”
+    </blockquote>
+
+    <p class="quote-author">
+      — Bill Cunningham
+    </p>
+
+  </div>
+
+</section>
+
+<!-- LATEST + SIDEBAR -->
+
+<section class="latest-section">
+
+  <div class="container">
+
+    <div class="row g-5">
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5">
+          <p class="section-label">✦ Join the Conversation</p>
+          <h2 class="section-title" style="font-size:2.5rem;">The Weekly<br><em>Edit</em></h2>
+          <div class="divider"></div>
+          <p>Our editors curate the best in fashion, beauty, and style — delivered to your inbox every Thursday morning. No clutter, just the stories worth reading.</p>
+        </div>
+        <div class="col-lg-7">
+          <p style="color:#A09A93; font-size:0.82rem; letter-spacing:0.08em; margin-bottom:1.25rem;">JOIN 48,000+ READERS ALREADY SUBSCRIBED</p>
+          <div class="newsletter-input-group mb-3">
+            <input type="email" placeholder="Your email address" />
+            <button class="btn-subscribe">Subscribe</button>
+          </div>
+          <p style="color:#4A453F; font-size:0.72rem; letter-spacing:0.05em;">By subscribing you agree to our Privacy Policy. Unsubscribe anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand">VOGUE <span>VIVANT</span></div>
+          <p class="footer-about">A curated space for those who appreciate the intersection of fashion, culture, and the quiet art of dressing well.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">IG</a>
+            <a href="#" class="social-link">TW</a>
+            <a href="#" class="social-link">PI</a>
+            <a href="#" class="social-link">YT</a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./style.html">Style</a></li>
+            <li><a href="./beauty.html">Beauty</a></li>
+            <li><a href="./trends.html">Trends</a></li>
+            <li><a href="./designers.html">Designers</a></li>
+            <li><a href="./lifestyle.html">Lifestyle</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <div class="footer-heading">Company</div>
+          <ul class="footer-links">
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./editors.html">Our Editors</a></li>
+            
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <div class="footer-heading">Latest From Instagram</div>
+          <div class="row g-2">
+            <div class="col-4"><img src="./assets/images/index/12.avif" alt="" style="width:100%; height:100%; object-fit:cover;"></div>
+            <div class="col-4"><img src="./assets/images/index/13.avif" alt="" style="width:100%; height:100%; object-fit:cover;"></div>
+            <div class="col-4"><img src="./assets/images/index/14.avif" alt="" style="width:100%; height:100%; object-fit:cover;"></div>
+            <div class="col-4"><img src="./assets/images/index/15.avif" alt="" style="width:100%; height:100%; object-fit:cover;"></div>
+            <div class="col-4"><img src="./assets/images/index/16.avif" alt="" style="width:100%; height:100%; object-fit:cover;"></div>
+            <div class="col-4"><img src="./assets/images/index/17.avif" alt="" style="width:100%; height:100%; object-fit:cover;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <span>© 2026 Vogue Vivant. All rights reserved.</span>
+        <span>
+          <a href="#" style="color:#4A453F; text-decoration:none; margin-right:1.5rem;">Privacy Policy</a>
+          <a href="#" style="color:#4A453F; text-decoration:none;">Terms of Use</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@import url("base.css");
+
+/* ── DESIGNERS PAGE SPECIFIC ── */
+.designers-section { padding: 5rem 0; }
+.product-img-wrap { height: 300px; }
+.designer-quote { background: var(--dark); padding: 4rem 0; text-align: center; }
+.designer-quote blockquote { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.5rem, 3vw, 2.5rem); font-weight: 300; font-style: italic; color: var(--cream); max-width: 700px; margin: 0 auto 1rem; line-height: 1.5; }
+.designer-quote cite { font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); }
+.btn-add-cart { background: var(--dark); color: var(--cream); }
+.btn-add-cart:hover { background: var(--accent); color: var(--dark); }
+@media (max-width: 767px) { .product-img-wrap { height: 220px; } }
+/* SEARCH BAR */
+
+.search-form{
+    display:flex;
+    align-items:center;
+    background:white;
+    border:1px solid #E5DED5;
+    border-radius:50px;
+    overflow:hidden;
+    transition:0.3s ease;
+}
+
+.search-form:hover{
+    border-color:#C6A27E;
+}
+
+/* INPUT */
+
+.search-input{
+    border:none;
+    outline:none;
+    padding:10px 16px;
+    background:transparent;
+    width:180px;
+    font-size:0.85rem;
+    color:#444;
+}
+
+.search-input::placeholder{
+    color:#999;
+}
+
+/* BUTTON */
+
+.search-btn{
+    border:none;
+    background:transparent;
+    padding:10px 16px;
+    cursor:pointer;
+    color:#777;
+    transition:0.3s ease;
+}
+
+.search-btn:hover{
+    color:#C6A27E;
+}
+
+/* MOBILE */
+
+@media(max-width:991px){
+
+    .search-form{
+        margin-top:1rem;
+        width:100%;
+    }
+
+    .search-input{
+        width:100%;
+    }
+}

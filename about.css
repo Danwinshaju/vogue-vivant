@@ -1,0 +1,78 @@
+@import url("base.css");
+
+/* ── ABOUT PAGE SPECIFIC ── */
+.about-section { padding: 6rem 0; }
+.about-pull-quote { background: var(--blush); padding: 3rem; position: relative; }
+.about-pull-quote::before, .about-pull-quote::after { content: ''; position: absolute; width: 40px; height: 40px; }
+.about-pull-quote::before { top: 1.5rem; left: 1.5rem; border-top: 2px solid var(--accent); border-left: 2px solid var(--accent); }
+.about-pull-quote::after { bottom: 1.5rem; right: 1.5rem; border-bottom: 2px solid var(--accent); border-right: 2px solid var(--accent); }
+.stat-block { text-align: center; padding: 3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.stat-num { font-family: 'Cormorant Garamond', serif; font-size: 3.5rem; font-weight: 300; color: var(--dark); line-height: 1; }
+.stat-label { font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-top: 0.5rem; }
+.value-card { padding: 2rem; border: 1px solid var(--border); height: 100%; }
+.value-card.dark { background: var(--dark); }
+.value-card .icon { font-size: 2rem; margin-bottom: 1rem; }
+.value-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; margin-bottom: 0.75rem; color: var(--dark); }
+.value-card.dark h3 { color: var(--cream); }
+.value-card p { font-size: 0.88rem; line-height: 1.8; color: var(--muted); }
+.value-card.dark p { color: #A09A93; }
+/* SEARCH BAR */
+
+.search-form{
+    display:flex;
+    align-items:center;
+    background:white;
+    border:1px solid #E5DED5;
+    border-radius:50px;
+    overflow:hidden;
+    transition:0.3s ease;
+}
+
+.search-form:hover{
+    border-color:#C6A27E;
+}
+
+/* INPUT */
+
+.search-input{
+    border:none;
+    outline:none;
+    padding:10px 16px;
+    background:transparent;
+    width:180px;
+    font-size:0.85rem;
+    color:#444;
+}
+
+.search-input::placeholder{
+    color:#999;
+}
+
+/* BUTTON */
+
+.search-btn{
+    border:none;
+    background:transparent;
+    padding:10px 16px;
+    cursor:pointer;
+    color:#777;
+    transition:0.3s ease;
+}
+
+.search-btn:hover{
+    color:#C6A27E;
+}
+
+/* MOBILE */
+
+@media(max-width:991px){
+
+    .search-form{
+        margin-top:1rem;
+        width:100%;
+    }
+
+    .search-input{
+        width:100%;
+    }
+}

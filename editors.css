@@ -1,0 +1,67 @@
+@import url("base.css");
+
+/* ── EDITORS PAGE SPECIFIC ── */
+.editors-section { padding: 5rem 0; }
+.editor-card .product-img-wrap { height: 320px; }
+.join-band { background: var(--blush); padding: 5rem 0; text-align: center; }
+@media (max-width: 767px) { .editor-card .product-img-wrap { height: 240px; } }
+/* SEARCH BAR */
+
+.search-form{
+    display:flex;
+    align-items:center;
+    background:white;
+    border:1px solid #E5DED5;
+    border-radius:50px;
+    overflow:hidden;
+    transition:0.3s ease;
+}
+
+.search-form:hover{
+    border-color:#C6A27E;
+}
+
+/* INPUT */
+
+.search-input{
+    border:none;
+    outline:none;
+    padding:10px 16px;
+    background:transparent;
+    width:180px;
+    font-size:0.85rem;
+    color:#444;
+}
+
+.search-input::placeholder{
+    color:#999;
+}
+
+/* BUTTON */
+
+.search-btn{
+    border:none;
+    background:transparent;
+    padding:10px 16px;
+    cursor:pointer;
+    color:#777;
+    transition:0.3s ease;
+}
+
+.search-btn:hover{
+    color:#C6A27E;
+}
+
+/* MOBILE */
+
+@media(max-width:991px){
+
+    .search-form{
+        margin-top:1rem;
+        width:100%;
+    }
+
+    .search-input{
+        width:100%;
+    }
+}
